@@ -1,0 +1,13 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="ext-age-slider" extends="age-slider">
+    <template>
+        <shadow></shadow>
+        <p>
+            <button on-tap="{{changeName}}">Change name</button>
+        </p>
+    </template>
+    <script>
+        Polymer(jdramaix.ExtendedAgeSlider.prototype);
+    </script>
+</polymer-element>
