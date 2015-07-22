@@ -3,6 +3,8 @@
 
     <g:HTMLPanel>
         <age-slider ui:field="ageSliderElement"/>
+        <age-slider ui:field="ageSliderElement2"/>
+        <g:Button ui:field="externalButton">Switch Name</g:Button>
     </g:HTMLPanel>
 
 </ui:UiBinder>
